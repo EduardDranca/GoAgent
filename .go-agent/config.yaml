@@ -1,0 +1,17 @@
+gemini:
+    instructions_model: gemini-2.5-flash-preview-04-17
+    generate_code_model: gemini-2.5-flash-preview-04-17
+    analysis_model: gemini-2.5-flash-preview-04-17
+groq:
+    instructions_model: llama-3.3-70b-versatile
+    generate_code_model: qwen-2.5-coder-32b
+    analysis_model: llama-3.3-70b-versatile
+openai:
+    instructions_model: gpt-4.5-preview
+    generate_code_model: gpt-4.5-preview
+    analysis_model: gpt-4.5-preview
+max_history_length: 100
+max_process_loops: 25
+rate_limit_rpm: 30
+glamour_style: dracula
+log_level: debug

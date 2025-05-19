@@ -1,0 +1,18 @@
+gemini:
+    instructions_model: gemini-2.0-flash-exp
+    generate_code_model: gemini-2.0-flash-thinking-exp-01-21
+    analysis_model: gemini-2.0-flash-thinking-exp-01-21
+    ask_analysis_model: gemini-2.0-flash-thinking-exp-01-21
+    ask_instructions_model: gemini-2.0-flash-exp
+groq:
+    instructions_model: llama-3.3-70b-versatile
+    generate_code_model: qwen-2.5-coder-32b
+    analysis_model: llama-3.3-70b-versatile
+    ask_analysis_model: llama-3.3-70b-versatile
+    ask_instructions_model: llama-3.3-70b-versatile
+openai:
+    instructions_model: gpt-4.5-preview
+    generate_code_model: gpt-4.5-preview
+    analysis_model: gpt-4.5-preview
+    ask_analysis_model: gpt-4.5-preview
+    ask_instructions_model: gpt-4.5-preview
